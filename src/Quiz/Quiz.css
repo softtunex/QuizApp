@@ -1,0 +1,54 @@
+hr{
+    width: 60vw;
+}
+.quizBody{
+    padding: 5rem 5rem;
+    color: #293264;
+    height: 100vh;
+    align-items: center;
+    /* overflow-y: hidden; */
+    
+
+}
+.quiz{
+    margin: 1.5rem auto;
+}
+.answer{
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    width: 100%;
+}
+.next-body{
+    margin: 1rem auto;
+    width: 40%;
+}
+.next{
+    
+    padding: 1rem;
+    background-color: #293264;
+    color: white;
+    border-radius: 1rem;
+    width: 100%;
+
+}
+.ansBtn{
+    
+    margin: 0.5rem 1rem;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #293264;
+
+}
+.ans{
+    display: flex;
+}
+.correct{
+    background-color: rgb(1, 209, 1);
+    color: white;
+}
+.wrong{
+    background-color: rgb(209, 1, 1);
+    color: white;
+}

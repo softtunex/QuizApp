@@ -1,0 +1,20 @@
+.StartQuiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #293264;
+    gap: 2rem;
+}
+.StartQuiz button{
+    background-color: #293264;
+    padding: 1.3rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+}
+.StartQuiz button:hover{
+    padding: 1.6rem;
+    transition: 0.2s ease-out;
+}

@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem auto;
+    width: 80%;
+}
+.head{
+    display: flex;
+}
+.Header .head h1,.score{
+    margin-top: 2rem;
+}
+.Header .head img{
+    width: 100px;
+}
